@@ -19,7 +19,7 @@
 
   <bean id="datasource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
     <property name="driverClassName" value="com.mysql.jdbc.Driver" />
-    <property name="url" value="jdbc:postgresql://ec2-50-19-26-235.compute-1.amazonaws.com:3306/d66h203kvc7ig7?sslmode=require" />
+    <property name="url" value="jdbc:postgresql://ec2-50-19-26-235.compute-1.amazonaws.com:5432/d66h203kvc7ig7?sslmode=require" />
     <property name="username" value="mcwjhxuakcbjco" />
     <property name="password" value="6af83df6691e01775e1dff9eecd9297055bdb3dfb2a673dd044dccb98607b2e0" />
   </bean>
