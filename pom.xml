@@ -123,14 +123,23 @@
          </configuration>
       </plugin> 
 	      
-      <plugin>                   
-             <configuration>         
-                 <groupId>com.github.jsimone</groupId>
-                 <artifactId>webapp-runner</artifactId>
-                 <version>8.0.24.0</version>
-                 <destFileName>webapp-runner.jar</destFileName>
-             </configuration>                      
+      <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-dependency-plugin</artifactId>
+                    <version>2.3</version>
+                            <configuration>
+                                <artifactItems>
+                                    <artifactItem>
+                                        <groupId>com.github.jsimone</groupId>
+                                        <artifactId>webapp-runner</artifactId>
+                                        <version>8.0.24.0</version>
+                                        <destFileName>webapp-runner.jar</destFileName>
+                                    </artifactItem>
+                                </artifactItems>
+                            </configuration>
         </plugin> 
+
+
 	         
     </plugins>
   </build>
