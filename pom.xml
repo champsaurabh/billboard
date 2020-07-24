@@ -117,7 +117,7 @@
         <artifactId>maven-war-plugin</artifactId>
         <version>2.6</version>
         <configuration>
-           <warSourceDirectory>src/main/java</warSourceDirectory>
+           <warSourceDirectory>src/main/webapp</warSourceDirectory>
            <warName>springmvc-user-reg-login</warName>
            <failOnMissingWebXml>false</failOnMissingWebXml>
          </configuration>
